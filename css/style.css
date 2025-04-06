@@ -129,7 +129,8 @@ input {
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
 }
-.container-input button#submit {
+.container-input button#submit,
+.container-input button#submitP {
     background-color: red;
 }
 .container-input button#reset {
@@ -144,6 +145,10 @@ input {
     -ms-transform: translate(2px, 2px);
     -o-transform: translate(2px, 2px);
 }
-.box-result {
+.box-result,
+.box-resultP {
     margin: 10px;
+}
+.container-input#nonAktif {
+    display: none;
 }
